@@ -1,0 +1,27 @@
+{
+  "selectLang": {
+    "spanish": "Spanish",
+    "english": "English"
+  },
+  "header": {
+    "home": "Home",
+    "benefits": "Benefits"
+  },
+  "welcome": "Welcome to your <span style=\"font-weight: 700; color: #a3cc39\">Wolox</span> <span style=\"font-weight: 700\">interview</span> ",
+  "working": "We work to <span style=\"font-weight: 700; color: #2aa7df\">turn </span><span style=\"font-weight: 700; color: #a3cc39\">ideas  </span>into products",
+  "benefits": "Among the benefits we offer are   <span style=\"color: #2aa7df\">:)</span>",
+  "elementsBenefits": {
+    "Ic_Hour": "Flexible schedule",
+    "Ic_HomeOffice": "Home Office ",
+    "Ic_Workshops": "Trainings and workshops",
+    "Ic_DrinkSnacks": "Free snacks, fruits and drinks",
+    "Ic_laptop": "remote week",
+    "Ic_brain": "Work on the latest technologies"
+  },
+  "thanks": "Thank you for <span style=\"color: #2aa7df\">completing the exercise.</span>",
+  "invite": "We invite you to see more information",
+  "buttons": {
+    "learnMore": "Learn More",
+    "followUs": "Follow Us"
+  }
+}

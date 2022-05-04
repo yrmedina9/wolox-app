@@ -1,0 +1,124 @@
+* {
+  color: #262626;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  position: relative;
+  margin-top: 100px;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../Fonts/Fira_Sans/FiraSans-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../Fonts/Fira_Sans/FiraSans-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../Fonts/Fira_Sans/FiraSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../Fonts/Fira_Sans/FiraSans-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../Fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../Fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../Fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../Fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+.btn {
+  background: #fff;
+  color: #2aa7df;
+  border: 2px solid #2aa7df;
+  padding: 10px 12px;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  width: 150px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+
+}
+.btn:hover {
+  color: #fff;
+}
+.btn::after {
+  content: "";
+  background: #2aa7df;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  border-radius: 50%;
+  left: -50%;
+  right: -50%;
+  top: -150%;
+  bottom: -150%;
+  transform: scale(0, 0);
+  transition: all 0.4s ease;
+}
+.btn:hover::after {
+  transition: all 0.6s ease-out;
+  transform: scale(1, 1);
+}
+.btn-primary {
+  background: rgba(255, 255, 255, 0);
+  color: #ffffff;
+  border: 2px solid #2aa7df;
+}
+.btn-solid {
+  background: #2aa7df;
+  color: #ffffff;
+  border: 2px solid #2aa7df;
+}
+.btn-solid:hover {
+  background: #fff;
+  color: #2aa7df;
+
+}
+.btn-solid::after {
+  content: "";
+  color: #2aa7df;
+  background: #ffffff;
+}

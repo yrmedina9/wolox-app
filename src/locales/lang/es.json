@@ -1,0 +1,27 @@
+{
+  "selectLang": {
+    "spanish": "Spanish",
+    "english": "English"
+  },
+  "header": {
+    "home": "Inicio",
+    "benefits": "Beneficios"
+  },
+  "welcome": "Bienvenido a tu <span style=\"font-weight: 700\">Entrevista Técnica</span> en <span style=\"font-weight: 700; color: #a3cc39\">Wolox</span>",
+  "working": "Trabajamos para <span style=\"font-weight: 700; color: #2aa7df\">convertir </span><span style=\"font-weight: 700; color: #a3cc39\">ideas </span>en productos",
+  "benefits": "Entre los beneficios que ofrecemos están <span style=\"color: #2aa7df\">:)</span>",
+  "elementsBenefits": {
+    "Ic_Hour": "Flexibilidad Horaria",
+    "Ic_HomeOffice": "Home Office",
+    "Ic_Workshops": "Capaciotaciones y workshops",
+    "Ic_DrinkSnacks": "Snacks,frutas y bebidas gratis",
+    "Ic_laptop": "Semana remota",
+    "Ic_brain": "trabajar en ultimas tecnologias"
+  },
+  "thanks": "Gracias por <span style=\"color: #2aa7df\">completar el ejecicio</span>",
+  "invite": "Te invitamos a ver mas información",
+  "buttons": {
+    "learnMore": "Conocer más",
+    "followUs": "Siguenos"
+  }
+}
